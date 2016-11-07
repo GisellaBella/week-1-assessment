@@ -1,38 +1,85 @@
-body {
-    background-image: url ("images/badge-android.png");
-    background-repeat: repeat-x;
+/*
+Project Name: Week 1 Assessment
+Client: WDI Lab
+Author: Gisella Walter
+*/
+
+/********************************************
+/* BASE STYLE
+/********************************************/
+
+body 
+    {
     font-family: 'Open Sans', sans-serif;
+    background-image: url ("../images/bgtile.png");
+    background-color:#79A5C3;
     }
 
-    .tileBackground {
-        background: url ("images/badge-android.png");
+    .container. {
+        width: 600px;
+        height: 900px;
     }
-        .iphone {
-            position: absolute;
-            vertical-align: 
-        }
+
+/********************************************
+/* LAYOUT
+/********************************************/
+    header {
+        width: 400px;
+        border: 2px black solid;
+    }
+
+    
+    header img {width:50%;
+        height:auto;}
+
+    .btn {
+      width: 50%;
+      background: #79A5C3;
+      background-image: -webkit-linear-gradient(top, #79A5C3, #457495);
+      background-image: -moz-linear-gradient(top, #79A5C3, #457495);
+      background-image: -ms-linear-gradient(top, #79A5C3, #457495);
+      background-image: -o-linear-gradient(top, #79A5C3, #457495);
+      background-image: linear-gradient(to bottom, #79A5C3, #457495);
+      -webkit-border-radius: 3;
+      -moz-border-radius: 3;
+      border-radius: 3px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 14px 20px 14px 20px;
+      border: solid #2C5D7E 1px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #4383a3;
+      text-decoration: none;
+    }
+    .btn:img { 
+    width: 50%;
+     }
+    }
+
+    .phoneImage {
+        background: url(images/badge-android.png) left  no-repeat,
+    }
+
+
+    .valueProp {
+
+
+    }
 
 
 
-        .frame {
-        	background-image: url ("images/phones.png");
-        }
-        .footerMenu {
+
+
+ footer {
+ 		display: inline;
+    	padding: 45px;
         color:#507B9A;
-       	font-size: 12px;
+        font-size: 12px;
         font-weight: 600;
         margin: 0 auto;
         text-transform: uppercase;
         width: 100%;
-        }
-
- head {
-   background-repeat: repeat-x; /* repeat horizontally */
-       color:#507B9A;
-       height: 250px;
-
- }   
- footer {
- 		display: inline;
-    	padding: 45px;
  }
