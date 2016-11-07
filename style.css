@@ -11,36 +11,51 @@ Author: Gisella Walter
 body {
     font-family: 'Open Sans', sans-serif;
     background-image: url("images/bgtile.png");
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     }
 
 h1  {
-    font-size: 22px;
-    font-weight: 600px;
+    color:#00294D;
+    font-size: 20px;
+    font-weight: 800px;
+    padding-top: 22px;
+    padding-left: 45px;
+    padding-right: 45px;
     }
 
 p   {
-    font-size:14px;
-    line-height: 1.25em;
+    font-size:12px;
+    line-height: 1.2em;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     }
+span.bold {
+    font-weight: 800;
+}
 
 
 /********************************************
 /* LAYOUT
 /********************************************/
-header {
-    width: 400px;
-    border: 2px black solid;
-    display:block;
-    }
+#container {
+    width:950px;
+    height:600px;
+    margin:20px auto;
+}
 
-header img {
-    width:50%;
-    height:auto;
+#logoBox {
+    width: 504px;
+    float: left;
+    padding-left:45px;
+    padding-right:40px;
+    padding-bottom: 20px;
+
     }
 
 .btn  {
-      width: 150px;
+      
       background: #79A5C3;
       background-image: -webkit-linear-gradient(top, #79A5C3, #457495);
       background-image: -moz-linear-gradient(top, #79A5C3, #457495);
@@ -52,55 +67,77 @@ header img {
       border-radius: 3px;
       font-family: Arial;
       color: #ffffff;
-      font-size: 14px;
-      padding: 14px 20px 14px 20px;
+      font-size: 15px;
+      padding: 5px 20px 5px 20px;
       border: solid #2C5D7E 1px;
       text-decoration: none;
-      text-align: center;
-      float: right;
+      text-align:center;
       }
 
 .btn:hover {
       background: #4383a3;
       text-decoration: none;
       }
-    
+.btn span{
+    background: url(images/home.png) no-repeat;
+    float: left;
+    height:22px;
+    width:25px;
+    padding-left: 10px;
+}
 .logos { 
       display:inline-block; 
-      padding-left: 25px
+      padding-left: 45px;
+      padding-top:25px;
       }
 
-.phoneImage {
+.alignLeft {
+    float:left;
+    display: block;
+    }
+
+.alignRight {
+    float:right;
+    display: block;
+    }
+
+#mainPhoto{
         background: url("images/phones.png") no-repeat center center;
         width: 318px;
         height:512px;
-        float: left;
+        padding:5px;
+        float:left;
         }
 
-.valueProp {
-        background: url("images/frame.png") no-repeat center center;
-        width:498px;
-        padding: 20px;
-        font-size: 12px;
-        Float: right;
+#mainContent {
+        background: url("images/frame.png")no-repeat center center; 
+        float:left;
+        width:504px;
+        padding-left: 35px;
+        padding-right: 35px;
         }
 
-.clearfix {
-        visibility: hidden;
-        display: block;
-        content: " ";
-        clear: both;
-        height: 0;
-        font-size: 0;
-        }
 
+.footerLinks {
+        display: inline;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-right:10px;
+    }
+
+a.linkStyle2 {
+        text-decoration: none;
+        color:#74A0BE;
+        }
+    
+a.linkStyle2:hover {
+        color:#668EA9;
+}
 footer {
-	border: 3px black solid;
-    padding: 45px;
-    color:#507B9A;
-    font-size: 12px;
-    font-weight: 600;
-    margin: 0;
-    text-transform: uppercase;
-    width: 100%;
+    width:100%;
+    clear:both;
+    color:#cccccc;
+    text-align: center;
+    padding:15px;
     }
