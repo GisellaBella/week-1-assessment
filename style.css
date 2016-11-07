@@ -14,11 +14,11 @@ body
     background-image: url ("../images/bgtile.png");
     background-color:#79A5C3;
     }
-
-    .container. {
-        width: 600px;
-        height: 900px;
+hd1 {
+    font-size: 22px;
+    font-weight: 600px;
     }
+
 
 /********************************************
 /* LAYOUT
@@ -26,14 +26,17 @@ body
     header {
         width: 400px;
         border: 2px black solid;
+        display:block;
     }
 
-    
-    header img {width:50%;
-        height:auto;}
+    header img {
+        width:50%;
+        height:auto;
+
+    }
 
     .btn {
-      width: 50%;
+      width: 150px;
       background: #79A5C3;
       background-image: -webkit-linear-gradient(top, #79A5C3, #457495);
       background-image: -moz-linear-gradient(top, #79A5C3, #457495);
@@ -49,22 +52,26 @@ body
       padding: 14px 20px 14px 20px;
       border: solid #2C5D7E 1px;
       text-decoration: none;
+      text-align: center;
+      float: right;
     }
     .btn:hover {
       background: #4383a3;
       text-decoration: none;
     }
-    .btn:img { 
-    width: 50%;
-     }
-    }
+    
 
     .phoneImage {
-        background: url(images/badge-android.png) left  no-repeat,
-    }
+      background: url("images/phones.png") no-repeat center center;
+      width: 318px;
+      height:512px;
+      float: left;
+        }
 
 
     .valueProp {
+             background: url("images/frame.png") no-repeat center center;
+             font-size: 12px;
 
 
     }
